@@ -1,75 +1,81 @@
 /* General Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
 }
 
-/* Header Styling */
 header {
-  background-color: #007BFF;
-  color: white;
-  padding: 1rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
 }
 
-header .logo h1 {
-  font-size: 2rem;
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
-header nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
+header p {
+    font-size: 1.2em;
 }
 
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+#deals {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
-header nav ul li a:hover {
-  text-decoration: underline;
+.deal {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Hero Section Styling */
-.hero {
-  background-color: #4CAF50;
-  color: white;
-  text-align: center;
-  padding: 5rem 1rem;
+.deal h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
-.hero h2 {
-  font-size: 3rem;
+.deal p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
 }
 
-.hero p {
-  font-size: 1.2rem;
-  margin-top: 1rem;
+.cta-btn {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
 }
 
-/* Footer Styling */
+.cta-btn:hover {
+    background-color: #c0392b;
+}
+
 footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 40px;
+    color: #888;
 }
 
 footer p {
-  font-size: 1rem;
+    margin-bottom: 10px;
 }
