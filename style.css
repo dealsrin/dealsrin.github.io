@@ -1,145 +1,113 @@
-/* General Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
 }
 
-/* Container to center content */
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-/* Header Section */
 header {
-    background-color: #4a90e2; /* Blue header */
-    color: #fff;
-    padding: 40px 0;
-    text-align: center;
+  background-color: #0077cc;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+  font-size: 2.5rem;
 }
 
 header p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
 }
 
-.cta-btn {
-    padding: 15px 25px;
-    background-color: #ff6347; /* Orange-red color */
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 30px;
-    transition: all 0.3s ease;
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #ff6f61;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
 }
 
-.cta-btn:hover {
-    background-color: #ff4500; /* Darker orange-red */
-    transform: scale(1.05);
+.btn:hover {
+  background-color: #e85c50;
 }
 
-/* Deals Section */
-.deals-section {
-    padding: 60px 0;
-    background-color: #fff;
+.featured {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
 }
 
-.deals-section h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: center;
+.featured h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
 }
 
-.deals {
-    display: flex;
-    justify-content: space-between;
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.deal-card {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    text-align: center;
-    transition: transform 0.3s ease;
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.deal-card:hover {
-    transform: translateY(-10px);
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
 }
 
-.deal-card h3 {
-    margin-bottom: 10px;
-    font-size: 1.5rem;
+.card p {
+  margin-bottom: 15px;
 }
 
-.deal-card p {
-    font-size: 1.2rem;
-    margin-bottom: 15px;
+.btn-small {
+  padding: 8px 16px;
+  background: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
 }
 
-.deal-link {
-    padding: 10px 20px;
-    background-color: #4a90e2;
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: all 0.3s ease;
+.btn-small:hover {
+  background: #005fa3;
 }
 
-.deal-link:hover {
-    background-color: #2f7abf;
-}
-
-/* Retailers Section */
 .retailers {
-    background-color: #f4f4f4;
-    padding: 40px 0;
+  padding: 30px 20px;
+  background: #f0f0f0;
+  text-align: center;
 }
 
-.retailers h2 {
-    text-align: center;
-    margin-bottom: 30px;
+.retail-links a {
+  margin: 0 15px;
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.retailers-links {
-    display: flex;
-    justify-content: space-around;
+.retail-links a:hover {
+  text-decoration: underline;
 }
 
-.retailer-btn {
-    padding: 15px 25px;
-    background-color: #ff6347;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 30px;
-    transition: all 0.3s ease;
-}
-
-.retailer-btn:hover {
-    background-color: #ff4500;
-    transform: scale(1.05);
-}
-
-/* Footer Section */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
 }
