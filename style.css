@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f9f7f1; /* Yellowish white background */
   color: #333;
 }
 
@@ -18,7 +18,7 @@ body {
 
 /* Header */
 header {
-  background-color: #f2e6d9; /* Soft beige background */
+  background-color: #f1e4c9; /* Soft beige with yellowish tint */
   padding: 60px 0;
   text-align: center;
   color: #333;
@@ -35,7 +35,7 @@ header p {
 }
 
 header .btn {
-  background-color: #fcb700; /* Yellowish-orange */
+  background-color: #fcb700; /* Subtle orange */
   padding: 15px 30px;
   color: #fff;
   text-decoration: none;
@@ -98,7 +98,7 @@ header .btn:hover {
 
 /* Retailers Section */
 .retailers {
-  background-color: #f4f4f4;
+  background-color: #f9f7f1;
   padding: 40px 0;
   text-align: center;
 }
