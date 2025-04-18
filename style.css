@@ -6,108 +6,107 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f7fa;
-  color: #333;
+  background-color: #0e0e10;
+  color: #f4f4f4;
   line-height: 1.6;
 }
 
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
 header {
-  background-color: #0077cc;
-  color: white;
-  padding: 60px 20px;
+  background: linear-gradient(135deg, #1f1f22, #292933);
+  padding: 4rem 0;
   text-align: center;
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  color: #00ffe1;
 }
 
 header p {
+  margin-top: 1rem;
   font-size: 1.2rem;
-  margin: 10px 0 20px;
+  color: #ccc;
 }
 
-.btn {
+.cta-button {
   display: inline-block;
-  padding: 12px 25px;
-  background-color: #ff6f61;
-  color: white;
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  background-color: #00ffe1;
+  color: #000;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 30px;
+  font-weight: bold;
   transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-  background-color: #e85c50;
+.cta-button:hover {
+  background-color: #00ccb6;
 }
 
 .featured {
-  padding: 40px 20px;
-  background: #fff;
-  text-align: center;
+  padding: 4rem 0;
+  background-color: #1a1a1d;
 }
 
 .featured h2 {
-  margin-bottom: 20px;
+  text-align: center;
   font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #00ffe1;
 }
 
 .cards {
   display: flex;
-  justify-content: center;
-  gap: 20px;
   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
 }
 
 .card {
-  background: #ffffff;
+  background-color: #2a2a2d;
   border-radius: 10px;
-  padding: 20px;
-  width: 250px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 2rem;
+  flex: 1 1 30%;
+  min-width: 280px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 255, 225, 0.1);
 }
 
 .card h3 {
-  margin-bottom: 10px;
-  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .card p {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
+  color: #aaa;
 }
 
-.btn-small {
-  padding: 8px 16px;
-  background: #0077cc;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 20px;
-}
-
-.btn-small:hover {
-  background: #005fa3;
-}
-
-.retailers {
-  padding: 30px 20px;
-  background: #f0f0f0;
-  text-align: center;
-}
-
-.retail-links a {
-  margin: 0 15px;
-  color: #0077cc;
+.card a {
+  background-color: #00ffe1;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
 }
 
-.retail-links a:hover {
-  text-decoration: underline;
+.card a:hover {
+  background-color: #00ccb6;
 }
 
 footer {
-  background: #333;
-  color: #fff;
-  padding: 15px;
+  background-color: #131316;
+  padding: 1rem;
   text-align: center;
+  color: #888;
+  font-size: 0.9rem;
 }
