@@ -1,130 +1,60 @@
-/* Global Styles */
+/* Reset & base */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f9f7f1; /* Yellowish white background */
-  color: #333;
+  background: linear-gradient(to bottom, #fdf8e6 0%, #f3f3f3 100%);
+  color: #1f1f1f;
+  line-height: 1.6;
+  padding-bottom: 40px;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-/* Header */
 header {
-  background-color: #f1e4c9; /* Soft beige with yellowish tint */
-  padding: 60px 0;
+  background-color: #222;
+  color: #fdf8e6;
   text-align: center;
-  color: #333;
+  padding: 50px 20px;
 }
 
 header h1 {
-  font-size: 3em;
-  margin-bottom: 20px;
+  font-size: 3rem;
+  margin-bottom: 10px;
 }
 
 header p {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   margin-bottom: 20px;
 }
 
-header .btn {
-  background-color: #fcb700; /* Subtle orange */
-  padding: 15px 30px;
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #d4a373;
   color: #fff;
   text-decoration: none;
-  font-size: 1.2em;
-  border-radius: 5px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s ease;
 }
 
-header .btn:hover {
-  background-color: #e59e00; /* Slightly darker yellow-orange */
+.btn:hover {
+  background-color: #b8875a;
 }
 
-/* Featured Deals Section */
-.featured {
-  background-color: #fff;
-  padding: 60px 0;
-  text-align: center;
+section.featured {
+  padding: 60px 20px;
+  background-color: #ffffff;
 }
 
 .featured h2 {
-  font-size: 2.5em;
+  text-align: center;
   margin-bottom: 40px;
+  font-size: 2.2rem;
+  color: #333;
 }
 
 .cards {
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-}
-
-.card {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 20px;
-  width: 30%;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card h3 {
-  font-size: 1.8em;
-  margin-bottom: 20px;
-}
-
-.card p {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
-.card .btn-small {
-  background-color: #fcb700; /* Yellowish-orange */
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.card .btn-small:hover {
-  background-color: #e59e00; /* Slightly darker yellow-orange */
-}
-
-/* Retailers Section */
-.retailers {
-  background-color: #f9f7f1;
-  padding: 40px 0;
-  text-align: center;
-}
-
-.retailers h2 {
-  font-size: 2.5em;
-  margin-bottom: 40px;
-}
-
-.retailer-logos a {
-  margin: 0 20px;
-}
-
-.retailer-logos img {
-  width: 150px;
-  height: auto;
-}
-
-/* Footer */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
-
-footer p {
-  font-size: 1.2em;
-}
