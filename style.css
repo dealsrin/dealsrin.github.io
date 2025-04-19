@@ -47,7 +47,7 @@ header p {
 
 section.featured {
   padding: 60px 20px;
-  background-color: #ffffff;
+  background-color: #f3f3f3; /* Changed from white to light grey */
 }
 
 .featured h2 {
